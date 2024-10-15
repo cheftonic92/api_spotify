@@ -79,7 +79,7 @@ const ArtistSelection = () => {
                 </li>
               ))}
             </ul>
-            <p>
+            <p className='text-center'>
               <a href={artistData.spotifyUrl} target="_blank" rel="noopener noreferrer">
                 Ver en Spotify
               </a>
