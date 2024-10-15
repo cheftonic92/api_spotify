@@ -1,0 +1,37 @@
+/* src/components/Navbar.css */
+
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 0.5rem 1rem; /* Espaciado interno para mejor visualización */
+    border-bottom: 1px solid #e0e0e0; /* Línea sutil en la parte inferior */
+  }
+  
+  /* Estilo para la marca de la barra de navegación */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem; /* Tamaño de fuente del título */
+    font-weight: bold;
+    color: #343a40; /* Color de texto oscuro */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Espacio entre el icono de la marca y el texto */
+  .navbar-brand .me-2 {
+    margin-right: 0.5rem;
+  }
+  
+  /* Estilo para los íconos en el lado derecho de la barra de navegación */
+  .nav-link {
+    color: #343a40; /* Color de los íconos */
+    margin-left: 10px; /* Espacio entre los íconos */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Color al pasar el cursor sobre los íconos */
+  }
+  

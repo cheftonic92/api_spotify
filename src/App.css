@@ -1,0 +1,105 @@
+
+.App{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.artist-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px; /* Reducir tamaño de texto */
+  
+}
+
+.add-artist-container:hover {
+  background-color: #746464;
+}
+
+.add-artist-container{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+  transition: background-color 0.3s ease; 
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.add-artist-icon {
+  font-size: 48px;
+  color: #ccc;
+}
+
+.artist-image-container{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.artist-info {
+  text-align: left;
+  padding: 10px;
+}
+
+.artist-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.artist-details {
+  font-size: 14px; /* Reducir tamaño del texto en los detalles */
+}
+
+.artist-details p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.artist-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.artist-details ul li {
+  margin: 5px 0;
+}
+
+.artist-details a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.artist-details a:hover {
+  text-decoration: underline;
+}
+
+.add-artist-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-artist-btn:hover {
+  background-color: #218838;
+}
+
+.artist-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
