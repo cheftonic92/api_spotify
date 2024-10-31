@@ -1,3 +1,7 @@
+Este proyecto permite comparar la popularidad de distintos artistas utilizando datos en tiempo real de la API de Spotify. La aplicación facilita la búsqueda, selección y visualización de dos o más artistas, presentando sus imágenes y un indicador de su popularidad. Está diseñada para proporcionar una experiencia intuitiva de comparación, ideal para usuarios interesados en explorar y contrastar las estadísticas de sus artistas favoritos.
+
+Para la construcción del proyecto, se utilizó React.js junto con React-Bootstrap para una interfaz moderna y adaptable a diferentes dispositivos. Las notificaciones mejoran la interacción con el usuario, indicándole el estado de la búsqueda y selección de artistas. La conexión con la API de Spotify se maneja mediante un servicio dedicado, que organiza las llamadas a la API y simplifica la obtención de datos necesarios.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
